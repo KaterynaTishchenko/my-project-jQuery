@@ -1,0 +1,61 @@
+body{
+  font-family: Montserrat;
+  color: #000000;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+}
+
+.section-products{
+  margin: 0 auto;
+}
+
+.header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.status-stock, .status-sold{
+  max-width: 49px;
+  font-size: 10px;
+  padding: 5px 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.status-stock{
+  color: #F8F1EA;
+  background-color: #F16A50;
+  }
+
+.status-sold{
+  color:  #000000;
+  background-color:  #F8F1EA;
+}
+.product-item{
+  max-width: 224px;
+  height: 437px;
+  text-align: center;
+  margin-left: 30px;
+}
+.product-item.active {
+  border: 2px solid #F16A50;
+  box-shadow: 0px 2px 6px #F16A50;
+}
+img{
+  max-width: 204px;
+  max-height: 300px;
+}
+.text{
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.price{
+  font-weight: 700;
+  font-size: 24px;
+}
